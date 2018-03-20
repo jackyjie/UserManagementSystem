@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/getUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "getUser"/>
+
+    <EditText
+        android:id="@+id/deleteId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="删除序号"/>
+
+    <Button
+        android:id="@+id/deleteUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="deleteUser"/>
+
+    <Button
+        android:id="@+id/updateUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="updateUser"/>
+
+    <Button
+        android:id="@+id/getUserList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getUserList"/>
+
+    <Button
+        android:id="@+id/addUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "addUser"/>
+
+</LinearLayout>
